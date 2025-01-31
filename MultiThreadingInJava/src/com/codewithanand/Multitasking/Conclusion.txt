@@ -1,0 +1,3 @@
+🔹 Conclusion
+✔ Use Process-Based Multitasking when you need separate, independent programs (e.g., launching Notepad, Chrome, VS Code).
+✔ Use Thread-Based Multitasking when you need parallel tasks inside the same program (e.g., a game running animations, music, and user input handling simultaneously).

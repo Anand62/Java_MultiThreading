@@ -1,0 +1,46 @@
+What is Uniprocessing?
+	Uniprocessing means a system with a single CPU that can execute only one process at a time. If multiple tasks are given, they are executed one after another in a sequential manner.
+
+Real-Life Example of Uniprocessing
+📍 Imagine a single-lane bridge:
+
+	Only one vehicle can pass at a time.
+	Others must wait until the road is clear.
+
+Similarly, in uniprocessing, the CPU can handle only one task at a time.
+
+
+Difference in Execution Speed
+Let’s compare uniprocessing vs multithreading with an example.
+
+🔴 Uniprocessing (Single-threaded)
+     Each task executes one by one:
+
+	Task 1: Downloading file... (3 sec)
+	Task 2: Processing file... (3 sec)
+	Task 3: Saving file... (3 sec)
+	Total time: 9 seconds
+
+
+🟢 Multithreading (Parallel Execution)
+    Tasks run in separate threads:
+
+
+	Task 1 and Task 2 and Task 3 run simultaneously
+	Total time: ~3 seconds
+
+When to Use Uniprocessing?
+	✔️ When tasks must be completed sequentially (e.g., reading a file line by line).
+	✔️ When simplicity is more important than speed.
+	✔️ When working with low-resource devices (like old computers).
+
+When to Use Multithreading?
+	✔️ When multiple independent tasks need to run at the same time.
+	✔️ When you need faster execution.
+	✔️ When you want a responsive UI (e.g., mobile or desktop apps).
+	
+	
+	Conclusion
+		Uniprocessing is simple but slow because tasks run one by one.
+		Multithreading is faster because tasks run concurrently.
+		Java provides multithreading to improve speed and efficiency.

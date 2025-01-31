@@ -1,0 +1,26 @@
+🖥️ What is Multitasking?
+Multitasking is the ability of a system to execute multiple tasks (processes or threads) simultaneously.
+
+🔹 In a single-core processor, multitasking is achieved using time-sharing (switching between tasks quickly).
+🔹 In a multi-core processor, true multitasking happens where different tasks run on separate cores at the same time.
+
+Types of Multitasking in Java
+-------------------------------
+	1️⃣ Process-Based Multitasking
+		Multiple independent programs (processes) run simultaneously.
+		Each process has its own memory and resources.
+	
+	🛠 Example:
+			Running Chrome, Notepad, and Spotify at the same time.
+			
+	Each app runs as a separate process in the OS.
+	
+	2️⃣ Thread-Based Multitasking
+		A single process runs multiple threads simultaneously.
+		Threads share memory and resources, making execution faster and efficient than processes.
+
+🛠 Example:
+	A text editor where:
+	One thread handles UI updates,
+	Another thread auto-saves the document,
+	Another thread checks spelling in real time.
