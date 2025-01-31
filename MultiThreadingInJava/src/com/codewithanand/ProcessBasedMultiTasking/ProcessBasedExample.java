@@ -68,7 +68,7 @@ The system handles these as separate processes, and they execute concurrently.
 
 
 /*
- 🔹 Key Features of Process-Based Multitasking
+🔹 Key Features of Process-Based Multitasking
 ✔ Each process has its own memory space.
 ✔ Processes do not share resources directly.
 ✔ Heavier compared to threads (more CPU & RAM usage).

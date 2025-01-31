@@ -19,7 +19,7 @@ Types of Multitasking in Java
 		A single process runs multiple threads simultaneously.
 		Threads share memory and resources, making execution faster and efficient than processes.
 
-🛠 Example:
+🛠 Example: 
 	A text editor where:
 	One thread handles UI updates,
 	Another thread auto-saves the document,
