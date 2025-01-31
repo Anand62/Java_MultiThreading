@@ -1,0 +1,11 @@
+Conclusion
+Threads help manage multitasking in Java applications. Understanding these methods and real-world examples can help you build better applications.
+
+Method	Use Case
+start()	Running a new thread (video buffering)
+sleep(ms)	Delaying execution (traffic signals)
+join()	Waiting for a thread (chef-waiter system)
+isAlive()	Checking status (file downloads)
+setPriority()	Prioritizing tasks (urgent bank transactions)
+synchronized	Preventing conflicts (ATM withdrawals)
+interrupt()	Stopping a thread (auto-save in games)
